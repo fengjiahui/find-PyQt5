@@ -9,12 +9,12 @@ if __name__ == '__main__':
     w = QWidget()
     #设置窗口的尺寸
 
-    w.resize(500,300)
+    w.resize(600,350)
 
     #移动窗口
-    w.move(300,300)
+    w.move(500,500)
     #设置窗口标题
-    w.setWindowTitle('第一个基于PyQt的应用桌面')
+    w.setWindowTitle('第一个基于PyQt5的应用桌面')
     #显示窗口
     w.show()
 
