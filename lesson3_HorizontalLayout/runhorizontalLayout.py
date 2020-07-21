@@ -1,4 +1,4 @@
-from HorizontalLayout.horizontalLayout import Ui_MainWindow
+from lesson3_HorizontalLayout.horizontalLayout import Ui_MainWindow
 import sys
 
 from PyQt5.QtWidgets import QApplication,QMainWindow
