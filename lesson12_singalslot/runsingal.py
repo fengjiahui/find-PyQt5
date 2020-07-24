@@ -1,4 +1,4 @@
-from lesson9_spaceline.spaceline import Ui_MainWindow
+from lesson12_singalslot.singal import Ui_MainWindow
 import sys
 from PyQt5.QtWidgets import QApplication,QMainWindow
 
@@ -22,6 +22,3 @@ if __name__ == '__main__':
     # 展示窗口
     mainWindow.show()
     sys.exit(app.exec_())
-
-
-

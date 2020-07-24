@@ -1,0 +1,26 @@
+尺寸策略:sizepolicy
+
+sizeHint(期望尺寸)
+对于大多数控件来说，sizeHint的值是只读的
+
+读取期望尺寸
+
+self.pushButton.sizeHint().width() // 77
+self.pushButton.sizeHint().height() // 32
+
+
+最小期望尺寸
+self.pushButton.minimumSizeHint().width() //  77
+self.pushButton.minimumSizeHint().height() // 32
+
+sizepolicy---Horizontal Policy 水平策略
+             Vertical Policy   垂直策略
+             Horizontal Stretch 水平伸展
+             Vertical Stretch  垂直伸展
+
+      fixed（固定）minimum(最小期望尺寸)maximum(最大期望尺寸)Preferred()Expanding(根据伸展配合使用)
+
+
+
+
+
