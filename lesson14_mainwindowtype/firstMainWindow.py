@@ -4,8 +4,8 @@ from PyQt5.QtGui import QIcon
 
 class FirstMainWin(QMainWindow):
     def __init__(self):
-        super(FirstMainWin,self).__init__()
-
+        # super(FirstMainWin,self).__init__()
+        super().__init__()
 
         #设置主窗口标题
         self.setWindowTitle('第一个主窗口应用')
