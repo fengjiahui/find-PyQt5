@@ -15,14 +15,14 @@ class QCheckBoxDemo(QWidget):
         layout = QHBoxLayout()
 
 
-        self.checkbox1 = QCheckBox('复选框1')
-        self.checkbox1.setChecked(True)
-        self.checkbox1.stateChanged.connect(lambda:self.checkboxState(self.checkBox1))
-        layout.addWidget(self.checkbox1)
+        self.checkBox1 = QCheckBox('复选框1')
+        self.checkBox1.setChecked(True)
+        self.checkBox1.stateChanged.connect(lambda:self.checkboxState(self.checkBox1))
+        layout.addWidget(self.checkBox1)
 
-        self.checkbox2 = QCheckBox('复选框2')
-        self.checkbox2.stateChanged.connect(lambda: self.checkboxState(self.checkBox2))
-        layout.addWidget(self.checkbox2)
+        self.checkBox2 = QCheckBox('复选框2')
+        self.checkBox2.stateChanged.connect(lambda: self.checkboxState(self.checkBox2))
+        layout.addWidget(self.checkBox2)
 
         self.checkBox3 = QCheckBox('半选中')
         self.checkBox3.stateChanged.connect(lambda: self.checkboxState(self.checkBox3))
@@ -47,7 +47,4 @@ if __name__ == '__main__':
     main = QCheckBoxDemo()
     main.show()
     sys.exit(app.exec_())
-
-
-
 
