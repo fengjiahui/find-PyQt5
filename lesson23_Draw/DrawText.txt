@@ -1,0 +1,21 @@
+绘图API：绘制文本
+
+1、文本
+2、各种图形（直线、点、椭圆、弧、扇形、多边形等）
+3、图像
+
+
+QPainter
+
+流程
+painter = QPainter()
+
+painter.begin()
+
+painter.drawText(.....)
+
+painter.end()
+
+
+必须在paintEvent事件中绘制各种元素
+
